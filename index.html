@@ -1,0 +1,368 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Disney Conspiracies</title>
+    <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/jquery-3.3.1.min.js"></script>
+        <script src="js/vendor/gsap.min.js"></script>
+        <script src="js/main.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.cdnfonts.com/css/new-walt-disney-font" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- * Show preloader as our content loads -->
+    <audio controls autoplay loop src="/My Disney Kitchen - Main Theme.mp3"></audio>
+    <!-- preloader -->
+    <img id="loading" src="/images/disneyloader.gif" alt="loading...">
+    <!-- * appear once all content has loaded -->
+    <!-- begin presentation button -->
+    <div id="btnContainer">
+        <img class="stars" src="/images/stars.gif">
+
+        <div id="begin" onclick="audio.play();">Begin Presentation</div>
+        <img class="stars2" src="/images/stars.gif">
+
+    </div>
+    <!-- * container of all content -->
+    <!-- main wrapper -->
+    <main>
+        <!-- * One section for each screen -->
+        <!-- SCREEN 1 -->
+        <section id="screen1">
+
+            <div id="introvoice">
+                <embed src="/mixdownintro.mp3" loop="true" autostart="true" width="2"
+                height="0">
+            </div>
+            <img class="sparkles" src="/images/giphy.gif">
+            <img class="sparkles2" src="/images/giphy.gif">
+            <img class="title1" src="/images/title.png">
+            <img class="castle" src="/images/castle.png">
+            <img class="mickey" src="/images/mickey.png">
+            <img class="tinkerbell" src="/images/tinkerbell.png">
+        </section>
+        <!-- SCREEN 2 -->
+        <section id="screen2" >
+
+            <div id="pagetwovoice">
+                <embed src="/mixdown2.mp3" loop="true" autostart="true" width="2"
+                height="0">
+            <img class="title2" src="/images/ownstheworld.png">
+            <img class="world" src="/images/earth.png">
+            <img class="phone" src="/images/cellphonebase.png">
+            <img id="bill" class="bill" src="/images/bill.png">
+            <img class="billspeech" src="/images/clickme.png">
+            <img id="income" class="income" src="/images/totalincome.png"> 
+            <img id="moneys" class="money" src="/images/money.png">
+            <p class="moneybubble">
+                Disney's income is so high, and owns such a large part of media, they're one of the biggest influencers out there! Some might say, the illuminati...
+            </p>
+            <img class="guestnumbers" src="/images/guestnumbers.png">
+            <img class="dailyguests" src="/images/dailyguests.png">
+            <img class="companys" src="/images/companysowned.png">
+            
+            <div class="apps">
+                <img class="fox" src="/images/fox.png">
+                <img class="pixar" src="/images/pixar.png">
+                <img class="marvel" src="/images/marvel.png">
+                <img class="muppets" src="/images/muppets.png">
+            </div>
+
+            <div class="apps2">
+                <img class="core" src="/images/corepublish.png">
+                <img class="caravan" src="/images/caravan.png">
+                <img class="hulu" src="/images/hulu.png">
+                <img class="plus" src="/images/disneyplus.png">
+            </div>
+
+            <div class="apps3">
+                <img class="abc" src="/images/abc.png">
+                <img class="history" src="/images/history.png">
+            </div>
+            <p class="billbubble">
+                I WILL TAKE OVER THE <span>WORLD!!! </span>
+            </p>
+            <img class="moneyfly" src="/images/money-cash.gif">
+            <img class="smallbill" src="/images/smallbill.png">
+            
+
+            <img class="underline" src="/images/lines.png">
+        </section>
+        <!-- SCREEN 3 -->
+        <section id="screen3">
+
+            <div id="pagethreevoice">
+                <embed src="/mixdown3.mp3" loop="true" autostart="true" width="2"
+                height="0">
+            <img class="barbar" src="/images/graph.gif">
+            <img class="stats" src="/images/stattitle.png">
+            <img class="agedemo" src="/images/agedemo.png">
+            <img class="statistics" src="/images/states.png">
+            <div id="ele8" onmousedown="boop.play()">
+                <p>Fact</p>
+                
+            </div> 
+            <div id="ele8hover" class="ele"> <img src="/images/monorail.png"></div>
+            <img class="gender" src="/images/gender.png">
+            <div id="ele9"  onmousedown="boop.play()" class="ele eleHover">
+                <p>enlarge graph</p>
+                <div id="bar1" class="bars"></div>
+                <div id="bar2" class="bars"></div>
+            </div>
+            <img class="underline" src="/images/lines.png">
+            <img class="layway" src="/images/layway.png">
+            <div class="laywaytext">
+            <p> Disney is known for it's inclusivity between all ages, races and genders. 
+                What makes them such a dangerously successful company is the way they cater to
+                everybody.
+
+            </p>
+            </div>
+        </section>
+        <!-- SCREEN 4 -->
+        <section id="screen4">
+            <embed src="/mixdown4.mp3" loop="true" autostart="true" width="0"
+            height="0">
+            <img class="boo" src="/images/boo.gif">
+            <img class="haunted" src="/images/haunted.png">
+            <img class="display" src="/images/display.png">
+
+            <div class="storytitle">
+                <img class="gngeorge" src="/images/goodnight.png">
+                <img class="witch" src="/images/witchcraft.png">
+                <img class="walter" src="/images/walter.png">
+                <img class="water" src="/images/waterpark.png">
+                <img class="tower" src="/images/towerofterror.png">
+            </div>
+            <div id="goodnightgeorgestory"> 
+                <h1>Good Night George</h1>
+                <p>George haunts the pirates of the caribbean ride. Employees have to say good-morning George and goodnight George when opening and closing the ride, or else the ride will malfunction and animatronics will stop working. </p>
+            </div>
+            <div id="witchcraftstory" > 
+                <h1>Witchcraft Book</h1>
+                <p>On the haunted mansion ride the mystical book was originally a real seance book from the fourteenth century book of witchcraft.
+                    Employees were noticing the book on the floor and turned upside down, they could not just keep it still, so they finally replaced it.
+                     </p>
+            </div>
+            <div id="walterstory" > 
+                <h1>Walter's Office</h1>
+                <p>The legend goes that when Walt was at the park he would always leave the lamp on to indicate to Cast Members that he was around. Cast members have spotted the light turning on by itself, and now the lamp is left on in memory of Walt.
+                     </p>
+            </div>
+            <div id="waterstory" > 
+                <h1>Abandoned Waterpark</h1>
+                <p>Disney has an abandoned waterpark called river country that was open until 2001. The music still plays on the speakers, and people have snuck in to explore the area, but paid serious consequences against Disney. 
+                     </p>
+            </div>
+            <div id="towerstory" > 
+                <h1>Tower of Terror</h1>
+                <p>The ghost of a former employee haunts the tower of terror ride. He had a heart attack while loading guests on a ride and it is said Platform D is the haunted spot which makes employees are scared to go near it. 
+                     </p>
+            </div>
+
+            <div class="storytitleimg">
+                <img class="gngeorge1" onmousedown="goodnight.play()" src="/images/daylight.png">
+                <img class="witch1" onmousedown="witchcraft.play()" src="/images/book.png">
+                <img class="walter1"  onmousedown="lamp.play()" src="/images/lightbulb.png">
+                <img class="water1" onmousedown="waterpark.play()" src="/images/sorryclosed.png">
+                <img class="tower1" onmousedown="towerterror.play()" src="/images/tombstone.png">
+            </div>
+
+            <img class="underline" src="/images/lines.png">
+        </section>
+        <!-- SCREEN 5 -->
+        <section id="screen5">
+            <embed src="/mixdown5.mp3" loop="true" autostart="true" width="0"
+            height="0">
+                <img class="bubble" src="/images/bubble.png">
+
+                    <h1 class="textupgrade">Correlation</h1>
+                    <p class="textbubble">The Suite Life stars Zack 
+                        and Cody have direct 
+                        interactions in a crossover movie with Hannah Montana and Raven Baxter.
+                    </p>
+
+                <img class="title5" src="/images/universe.png">
+                <img class="donut" src="/images/donut.png">
+                <img class="bobs" onmousedown="meep.play()"src="/images/bobsburgers.png">
+                <p class="textbubble4">
+                    The March 12 episode of the series will feature a crossover scene with the show's character Peter Griffin, Bob Belcher, and Homer Simpson.
+                </p>
+                <img id="simpsons" class="simpsons" onmousedown="bleep.play()" src="/images/simpsons.png">
+                <p class="textbubble3">
+                    The Simpsons Guy episode includes cameo appearances by Roger of American Dad!, Bob Belcher of Bob's Burgers, and Fred Flintstone of The Flintstones.
+                </p>
+                <img class="american" onmousedown="deep.play()"src="/images/americandad.png">
+                <p class="textbubble5">
+                    The crossover consisted of American Dad!, King of the Hill, and Family Guy. It starts in Quahog when the Griffins visit their new neighbors, the Smiths.
+                </p>
+                <img class="family"onmousedown="doop.play()" src="/images/familyguy.png">
+                <p class="textbubble2">
+                    Series 13, Episode 2 - Peter and the Griffins get out of Dodge and end up in Springfield, where they are greeted by a friendly stranger named Homer.
+                </p>
+                <img class="corr" src="/images/corr.png">
+                <img class="tv" src="/images/tv.png">
+                <p class="textbubble6">
+                    One of the most popular 
+theories, the princess from Tangled is related to Anna and Elsa from frozen, and even appears at Annas 
+wedding In the movie! 
+                </p>
+                <img class="underline" src="/images/lines.png">
+        </section>
+        <!-- SCREEN 6 -->
+        <section id="screen6">
+            <embed src="/mixdown666.mp3" loop="true" autostart="true" width="0"
+            height="0">
+            <img class="moneygo" src="/images/moneytitle.png">
+            <img class="charities" src="/images/charities.png">
+            <img class="moneymickey" src="/images/mickey2.png">
+            <img class="billion" src="/images/84billion.png">
+            <img class="money2" src="/images/money23png.png">
+            
+            <div id="ele7" class="ele">
+                <p>CHARITIES</p>
+                <div id="ele7content">
+                    <p> Disney provides emergency relief and supports recovery efforts in communities worldwide and continues to support several organizations.</p>
+                </div>
+            </div>
+                <div id="ele10" class="ele10">
+                    <p>MAKE A WISH</p>
+                    <div id="ele10content">
+                        <p>Disney has been 
+                            involved in the granting of over 100,000 wishes to children facing lifethreatening medical conditions, with as many as 7,000 wishes in a single year. </p>
+                    </div>
+                </div>
+
+                <div id="ele11" class="ele11">
+                    <p>EDUCATION</p>
+                    <div id="ele11content">
+                        <p> The Disney College Program is a paid-internship program that provides college students with the opportunity to work at one of the world’s largest and best-known companies.   </p>
+                    </div>
+                </div>
+
+
+                <div id="ele12" class="ele12">
+                    <p>EMPLOYERS</p>
+                    <div id="ele12content">
+                        <p> Employs over 185,000 
+                            people worldwide.</p>
+                    </div>
+                </div>
+
+            <div class="liners">  
+                <img class="line1" src="/images/charityline.png">
+                <img class="line2" src="/images/employersline.png">
+                <img class="line3" src="/images/wishline.png">
+                <img class="line4" src="/images/educationline.png">
+            </div>  
+
+
+
+
+            <img class="underline" src="/images/lines.png">
+        </section>
+
+    </section>
+    <!-- SCREEN 7 -->
+    <section id="screen7">
+        <embed src="/finalmixdown.mp3" loop="true" autostart="true" width="0"
+        height="0">
+        <div class="cited">
+            <h1> Works Cited</h1>
+            <p>https://www.statista.com/statistics/193136/total-assets-of-the-walt-disney-company-since-2006/</p>
+            <p>https://www.disneyfanatic.com/13-things-the-walt-disney-company-does-with-your-money-2/</p>
+            <p>https://www.youtube.com/watch?v=ZATqNAixJdU</p>
+            <p>https://www.statista.com/statistics/1095372/disney-plus-number-of-subscribers-us/</p>
+        </div>
+        <img class="mickey2" src="/images/mickey.png">
+    </section>
+        <!-- nav -->
+        <div id="prev" onmousedown="boop.play()">prev</div>
+        <div id="next" onmousedown="boop.play()">next</div>
+    </main>
+
+    <script type="text/javascript">
+        const audio = new Audio ();
+        audio.src= "./mickeymouse.mp3"
+    </script>
+
+<script>
+    let play= document.getElementById("bill");
+    function playMusic() {
+        let audio =  new Audio ("bill.mp3");
+            audio.play()
+    }
+
+    play.addEventListener("click", playMusic);
+</script>
+
+<script>
+    let money= document.getElementById("income");
+    function moneyMusic() {
+        let audio =  new Audio ("money.mp3");
+            audio.play()
+    }
+
+    play.addEventListener("click", moneyMusic);
+</script>
+
+<script>
+    var bleep = new Audio () ;
+    bleep.src = "homer.mp3"
+</script>
+
+
+<script>
+    var doop = new Audio () ;
+    doop.src = "peterlaugh.mp3"
+</script>
+
+<script>
+    var deep = new Audio () ;
+    deep.src = "usa.mp3"
+</script>
+
+<script>
+    var meep = new Audio () ;
+    meep.src = "bobsb.mp3"
+</script>
+
+<script>
+    var boop = new Audio () ;
+    boop.src = "boop.mp3"
+</script>
+
+<script>
+    var goodnight = new Audio () ;
+    goodnight.src = "gn1.mp3"
+ </script>
+
+<script>
+    var witchcraft = new Audio () ;
+    witchcraft.src = "gn2.mp3"
+ </script>
+
+<script>
+    var lamp = new Audio () ;
+    lamp.src = "gn3.mp3"
+ </script>
+
+<script>
+    var waterpark = new Audio () ;
+    waterpark.src = "gn4.mp3"
+ </script>
+
+<script>
+    var towerterror = new Audio () ;
+    towerterror.src = "gn5.mp3"
+ </script>
+
+
+
+
+</body>
+</html>
